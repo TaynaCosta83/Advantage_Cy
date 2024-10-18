@@ -1,0 +1,27 @@
+{
+  "name": "projeto-advantagedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaynaCosta83/advantage-cy.git"
+  },
+  "author": "Tayna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TaynaCosta83/advantage-cy/issues"
+  },
+  "homepage": "https://github.com/TaynaCosta83/advantage-cy#readme",
+  "devDependencies": {
+    "cypress": "^13.15.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions":false,
+    "step_definitions":"cypress/e2e/cucumber/Tests"
+  }
+}
